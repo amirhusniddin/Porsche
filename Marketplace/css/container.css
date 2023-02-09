@@ -1,0 +1,51 @@
+.container{
+    margin: 0 auto;
+}
+@media (max-width: 576px){
+    .container{
+        padding: 0 15px;
+    }
+}
+@media (min-width: 576px){
+    .container{
+        max-width: 540px;
+    }
+}
+@media (min-width: 768px){
+    .container{
+        max-width: 720px;
+    }
+}
+@media (min-width: 992px){
+    .container{
+        max-width: 960px;
+    }
+}
+@media (min-width: 1200px){
+    .container{
+        max-width: 1140px;
+    }
+    .overflow{
+        display: none;
+    }
+}
+@media (min-width: 1400px){
+    .container{
+        max-width: 1320px;
+    }
+}
+@media (min-width: 1600px){
+    .container{
+        max-width: 1520px;
+    }
+}
+@media (min-width: 2000px){
+    .container{
+        max-width: 1920px;
+    }
+}
+@media (min-width: 4000px){
+    .container{
+        max-width: 3920px;
+    }
+}
